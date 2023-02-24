@@ -1,0 +1,47 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background-color: #591C21;
+}
+.navbar{
+    background-color: #0e0e0e;
+}
+.logonavbar{
+    width: 30vh;
+    height: auto;
+    border: #3d0b0b;
+}
+.boton-navbar{
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #d33939;
+    border-color: #d33939;
+    transition: all 0.6s;
+}
+.boton-navbar:hover{
+    background-color: #ff7272;
+    border-color: #ff7272;
+    transform: scale(105%);;
+}
+.secondary-navbar{
+    background-color: #000000c5;
+}
+.title-navbar{
+    font-weight: bold;
+    color: #d1d1d1;
+}
+.activado{
+    background-color: #851212;
+    border-color: #851212;
+}
+.cartas{
+    column-gap: 26vh;
+    row-gap: 5vh;
+    margin-top: 10vh;
+}
+.sticky-navbar{
+    position: sticky;
+    top: -1px;
+    z-index: 50;
+}
