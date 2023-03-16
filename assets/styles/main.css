@@ -37,7 +37,7 @@ body{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 .cartas{
-    column-gap: 26vh;
+    column-gap: 5vh;
     row-gap: 5vh;
     margin-top: 10vh;
 }
@@ -80,6 +80,9 @@ body{
 .details{
     /* padding-top: 10vh; */
     width: 50%;
-    height: 50vh;
     background-color: rgb(27, 27, 27);
+}
+.imgdetail{
+    width: 50vh;
+    height: auto;
 }
